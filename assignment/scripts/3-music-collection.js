@@ -31,8 +31,10 @@ function showCollection(listsongs) {
         console.log( Collection.length, `songs` );
 }
     for ( let songs of Collection) {
-        console.log( {title:songs.title}, 'by', {artist:songs.artist}, ', published in', {yearPublished:songs.yearPublished} )
-}
+        console.log( { title : songs.title }, `by`, { artist : songs.artist }, `, published in`, { yearPublished : songs.yearPublished } )
+        // Not sure if this is how Im suppose to do it
+    }
 }
 showCollection(Collection);
+
 
